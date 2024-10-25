@@ -52,7 +52,7 @@ main{
 .imagem{
     background-color: gray;
     font-family: var(--font02);
-    background-image: url(/imagens/background001.jpg);
+    background-image: url(/front-cr/Cordel-HTML/imagens/background001.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -63,12 +63,16 @@ main{
 .imagem2{
     background-color: gray;
     font-family: var(--font02);
-    background-image: url(/imagens/background002.jpg);
+    background-image: url(/front-cr/Cordel-HTML/imagens/background002.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
 
+}
+
+.img-p {
+    display: inline-block;
 }
 
 .normal>p{
